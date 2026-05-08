@@ -9,3 +9,17 @@ def age():
     4. La edad en minutos (1 hora = 60 minutos)
     """
     edad_anos = 25
+# Ejercicio 10 - Conversión de Edad a Tiempo
+
+edad = 15
+
+meses = edad * 12
+dias = edad * 365
+horas = dias * 24
+minutos = horas * 60
+
+print("Edad en meses:", meses)
+print("Edad en días:", dias)
+print("Edad en horas:", horas)
+print("Edad en minutos:", minutos)
+
