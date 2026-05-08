@@ -1,6 +1,4 @@
-def math():
-    """
-    Ejercicio 1 - Operaciones Matemáticas
+Ejercicio 1 - Operaciones Matemáticas
 
     Dado dos números enteros a y b, imprimir:
     1. La suma
@@ -14,27 +12,17 @@ def math():
     a = 57
     b = 7
 
-def math():
+    print(b+a)
+    print(a-b)
+    print(a*b)
 
-    a = 57
-    b = 7
+    print((a+b)/2)
 
-    suma = a + b
-    diferencia = a - b
-    producto = a * b
-    promedio = (a + b) / 2
-    cociente_entero = a // b
-    resto = a % b
-    division_real = a / b
+    print(a//b)
+    print(a%b)
 
-    print(suma)
-    print(diferencia)
-    print(producto)
-    print(promedio)
-    print(cociente_entero)
-    print(resto)
-    print(division_real)
+    print(a/b)
 
-
+   
 
 
