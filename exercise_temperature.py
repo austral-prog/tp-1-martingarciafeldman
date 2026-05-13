@@ -6,9 +6,10 @@ def temperature():
     1. La temperatura en Fahrenheit (F = C × 9/5 + 32)
     2. La temperatura original en Celsius
     """
-    C = 25
-    temperatura_Fahrenheit = C * 9/5 + 32
-    print(temperatura_Fahrenheit)
-    print(C)
 
-temperature()
+    celsius = 25
+
+    fahrenheit = celsius * 9 / 5 + 32
+
+    print(fahrenheit)
+    print(celsius)

@@ -1,4 +1,3 @@
-import math
 from math import pi
 
 
@@ -10,14 +9,11 @@ def circle():
     1. El área (π × radio²)
     2. La circunferencia (2 × π × radio)
     """
-import math
-def circle():
     radio = 5
-    area = math.pi * radio ** 2
-    circunferencia = 2 * math.pi * radio
+
+    area = pi * radio ** 2
+    circunferencia = 2 * pi * radio
+
     print(area)
     print(circunferencia)
-
-circle()
-
 

@@ -6,25 +6,17 @@ def rectangle():
     1. El área (base × altura)
     2. El perímetro (2 × base + 2 × altura)
     """
-    base = 10
-    altura = 5
+    base=10
+    altura=5
 
-def rectangle():
+    #OPCION 1
     """
-    Ejercicio 2 - Geometría de Rectángulo
-
-    Dado un rectángulo con base y altura, imprimir:
-    1. El área (base * altura)
-    2. El perímetro (2 * base + 2 * altura)
-    """
-
-    base = 10
-    altura = 5
-
-    area = base * altura
-    perimetro = 2 * base + 2 * altura
+    area=base*altura
+    perimetro=(base+altura)*2
 
     print(area)
-    print(perimetro)
+    print(perimetro)"""
 
-    
+    #OPCION2
+    print(base*altura)
+    print((base+altura)*2)

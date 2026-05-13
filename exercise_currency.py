@@ -1,11 +1,21 @@
 def currency():
+    """
+    Ejercicio 13 - Conversión de Moneda
 
-    P = 10000
+    Dado un monto en pesos argentinos y tasas de cambio, imprimir:
+    1. El monto en dólares
+    2. El monto en euros
+    3. El monto en reales brasileños
+    """
+    pesos = 10000
+    tasa_dolar = 1500
+    tasa_euro = 1600
+    tasa_real = 250
 
-    monto_dolar = P / 1500
-    monto_euros = P / 1600
-    monto_reales = P / 250
+    dolares = pesos / tasa_dolar
+    euros = pesos / tasa_euro
+    reales = pesos / tasa_real
 
-    print(monto_dolar)
-    print(monto_euros)
-    print(monto_reales)
+    print(dolares)
+    print(euros)
+    print(reales)

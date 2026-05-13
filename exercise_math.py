@@ -1,4 +1,6 @@
-Ejercicio 1 - Operaciones Matemáticas
+def math():
+    """
+    Ejercicio 1 - Operaciones Matemáticas
 
     Dado dos números enteros a y b, imprimir:
     1. La suma
@@ -22,7 +24,4 @@ Ejercicio 1 - Operaciones Matemáticas
     print(a%b)
 
     print(a/b)
-
-   
-
 
