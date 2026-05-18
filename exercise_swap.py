@@ -14,11 +14,11 @@ def swap():
     print(x)
     print(y)
 
-    # x, y = y, x
-
-    aux = x
-    x = y
-    y = aux
-
+    #x, y = y, x
+    
+    aux=x
+    x=y
+    y=aux
+    
     print(x)
     print(y)

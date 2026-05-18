@@ -20,3 +20,9 @@ def rectangle():
     #OPCION2
     print(base*altura)
     print((base+altura)*2)
+
+
+
+
+
+

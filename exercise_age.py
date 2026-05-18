@@ -1,5 +1,5 @@
 def age():
-     """
+    """
     Ejercicio 10 - Conversión de Edad a Tiempo
 
     Dada una edad en años, calcular e imprimir:
@@ -19,4 +19,3 @@ def age():
     print(dias)
     print(horas)
     print(minutos)
-
